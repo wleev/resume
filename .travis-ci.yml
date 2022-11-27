@@ -1,0 +1,13 @@
+language: node_js
+before_script:
+  - npm install
+script:
+  - hackmyresume build resume.json out/resume.all --theme positive
+  - node pdf-print.js
+deploy:
+  provider: releases
+  api_key: "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"
+  file: "./out/resume.pdf"
+  skip_cleanup: true
+  on:
+    tags: true
