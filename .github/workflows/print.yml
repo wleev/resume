@@ -1,8 +1,11 @@
 
 name: print-pdf
 
-on:
-  push
+
+on: 
+  push:
+    tags:
+    - '*'
 
 jobs:
   build:
@@ -23,6 +26,10 @@ jobs:
     - run: npm install
     - run: npx hackmyresume build resume.json out/resume.all --theme positive
     - run: node pdf-print.js
+    - name: Create release
+      uses: ncipollo/release-action@v1
+      with:
+        artifacts: "out/resume.pdf"
 
 
 
