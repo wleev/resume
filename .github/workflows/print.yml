@@ -30,4 +30,4 @@ jobs:
     - name: Create release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "out/resume.pdf, out-ja/resume.pdf"
+        artifacts: "out/resume.pdf, out-ja/resume-ja.pdf"

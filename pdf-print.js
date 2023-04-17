@@ -25,7 +25,7 @@ const cssPath = path.resolve(__dirname, './out/positive-pdf.css');
     });
     await page.setContent(htmlContentJP.toString(), { waitUntil: ["domcontentloaded", "networkidle0"]})
     await page.pdf({
-        path: "out-ja/resume.pdf",
+        path: "out-ja/resume-ja.pdf",
         format: "A4",
         printBackground: true,
         displayHeaderFooter: false,
