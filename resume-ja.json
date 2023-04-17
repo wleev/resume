@@ -1,0 +1,326 @@
+{
+  "name": "Wesley Vrancken",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "Software Engineer",
+    "brief": "Programmer of all trades and languages with 10+ years of experience in a variety of industries. A Belgian native. Aspiring biohacker, blockchain fan and science-fiction enthusiast.",
+    "image": ""
+  },
+  "contact": {
+    "email": "wlee@isabot.net",
+    "other": []
+  },
+  "location": {
+    "address": "",
+    "city": "Osaka",
+    "region": "",
+    "code": "",
+    "country": "JP"
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "wleev",
+      "url": "https://github.com/wleev"
+    }
+  ],
+  "skills": {
+
+    "sets": [
+      {
+        "name": "言語",
+        "level": "advanced",
+        "skills": [
+          "JavaScript", "Python", "C#", "C++", "Java", "Clojure", "Golang"
+        ]
+      },
+      {
+        "name": "ウェブ",
+        "level": "master",
+        "skills": [
+          "Typescript", "React.js", "Vue.js", "Angular.js", "Node.js", "Flask", "WebAPI", "ASP.NET"
+        ]
+      },
+      {
+        "name": "データベース",
+        "level": "intermediate",
+        "skills": [
+          "MySQL/MariaDB", "PostgreSQL", "Mongo", "Redis"
+        ]
+      },
+      {
+        "name": "インフラストラクチャ",
+        "level": "intermediate",
+        "skills": [
+          "Shell", "Docker", "LXC", "Nginx", "Apache"
+        ]
+      }
+    ]
+  },
+  "employment": {
+    "history": [{
+      "employer": "CryptoGarage",
+      "position": "フリーランス",
+      "location": "リモート",
+      "start": "2019-12",
+      "end": "2020-06",
+      "summary": "ピアツーピアの仮想通貨デリバティブ取引アプリの開発",
+      "highlights": [
+        "ElectronJS MVPの開発",
+        "Golangバックエンドサーバーのテストとメンテナンス",
+        "Dockerイメージの微調整"
+      ],
+      "keywords": [
+        "Typescript",
+        "ElectronJS",
+        "React",
+        "Docker",
+        "Golang"
+      ]
+    },
+    {
+      "employer": "Raspberry Shake",
+      "position": "ソフトウェアエンジニア",
+      "location": "リモート",
+      "start": "2018-04",
+      "summary": "地震計および地球物理データ用ソフトウェアの開発",
+      "highlights": [
+        "地震学データを使用した製品ポータルウェブサイトおよび他のウェブアプリケーションの設計、開発、およびメンテナンス",
+        "地震計（RPiデバイス）の設定ソフトウェアのプロトタイピングおよび開発",
+        "Qtを使用したマルチプラットフォームモバイルアプリの開発",
+        "プロダクションサーバーおよびそのサービスのメンテナンス"
+      ],
+      "keywords": [
+        "C#",
+        "ASP.NET Core",
+        "Python",
+        "Flask",
+        "Javascript",
+        "Typescript",
+        "Vuejs",
+        "Qt",
+        "C++"
+      ]
+    },    
+      {
+        "employer": "Synon",
+        "position": "Software engineer",
+        "start": "2015-06",
+        "end": "2018-03",
+        "location": "Osaka, Japan",
+        "summary": "Application development for multiple platforms including Windows 10 and Android.",
+        "highlights": [
+          "Migrated Android app to most recent SDK and implemented custom calendar widget.",
+          "Architected Windows Store app and accompanying services with focus on IoT device compatibility.",
+          "Migrated all services to a multiplatform solution using .NET Core."
+        ],
+        "keywords": [
+          "C#",
+          "ASP.NET Core",
+          "UWP",
+          "Java"
+        ]
+      },
+      {
+        "employer": "OSOP",
+        "position": "Lead developer",
+        "start": "2014-09",
+        "end": "2015-08",
+        "location": "Volcan, Panama/Remote",
+        "summary": "Developing seismology related software, ranging from embedded software to web applications.",
+        "highlights": [
+          "Lead development of WiFi enabled seismometer prototype.",
+          "Maintained and updated Go application for bluetooth configuration of seismometers.",
+          "Developed server for enabling OTA firmware updates."
+        ],
+        "keywords": [
+          "C/C++",
+          "Go",
+          "Python",
+          "Javascript",
+          "Backbone.js",
+          "Django",
+          "STM32",
+          "Flask"
+        ]
+      },
+      {
+        "employer": "Boaz Consultancy",
+        "position": "Web developer",
+        "start": "2014-09",
+        "end": "2015-08",
+        "location": "Volcan, Panama/Remote",
+        "summary": "Developing back office web application for display of aggregated banking data.",
+        "highlights": [],
+        "keywords": [
+          "C#",
+          "ASP.NET MVC",
+          "Angular.js",
+          "Javascript",
+          "Kendo UI"
+        ]
+      },
+      {
+        "employer": "Key Technology",
+        "position": "Software Engineer",
+        "start": "2013-11",
+        "end": "2014-08",
+        "location": "Hasselt, Belgium",
+        "summary": "Developing software implementations in multiple domains relating to optical sorting machines and complimenting equipment.",
+        "highlights": [
+          "Created utility program for engineers and support staff.",
+          "Improved internal Jenkins build tools.",
+          "Managed Jenkins CI server for C++ and Python projects."
+        ],
+        "keywords": [
+          "C++",
+          "Qt",
+          "Boost",
+          "Ruby",
+          "Numpy",
+          "SciPy",
+          "XSLT",
+          "XSD"
+        ]
+      },
+      {
+        "employer": "Ubicast",
+        "position": "Web developer",
+        "start": "2013-02",
+        "end": "2013-08",
+        "location": "Tokyo, Japan",
+        "summary": "Web application and module development using OpenCMS",
+        "highlights": [
+          "Created custom OpenCMS features for client.",
+          "Redesigned corporate website."
+        ],
+        "keywords": [
+          "Java",
+          "Scala",
+          "OpenCMS",
+          "Backbone.js"
+        ]
+      },
+      {
+        "employer": "Cegeka",
+        "position": "IT Consultant",
+        "start": "2012-10",
+        "end": "2013-01",
+        "location": "Hasselt, Belgium",
+        "summary": "Deployed as analist-developer at Hereaus Electro-Nite's intrumentation department.",
+        "highlights": [
+          "Development of C# application for measuring instrument.",
+          "Field tested software at aluminium smelter.",
+          "Mathematical analysis of field data",
+          "Responsible for communication between chemists, engineers and software staff."
+        ],
+        "keywords": [
+          "C#",
+          "WPF",
+          "Python",
+          "Numpy",
+          "SciPy",
+          "TFS"
+        ]
+      },
+      {
+        "employer": "Fenego",
+        "position": "Internship",
+        "start": "2012-08",
+        "end": "2012-09",
+        "location": "Hasselt, Belgium",
+        "summary": "Created a tool for generating XML files based on existing XSD, used for testing webservices.",
+        "highlights": [],
+        "keywords": [
+          "Java",
+          "JavaFX",
+          "XML",
+          "XSD"
+        ]
+      },
+      {
+        "employer": "Cinemaray",
+        "position": "Internship",
+        "start": "2012-03",
+        "end": "2012-08",
+        "location": "Nagoya, Japan",
+        "summary": "Internship for school credit.",
+        "highlights": [
+          "Created and modified iOS applications with AR components.",
+          "Build a prototype XNA application for the Microsoft PixelSense.",
+          "Implemented mapping service for custom client maps."
+        ],
+        "keywords": [
+          "Unity3D",
+          "Vuforia",
+          "C#",
+          "XNA",
+          "GDAL",
+          "OpenLayers",
+          "Geoserver"
+        ]
+      },
+      {
+        "employer": "Fenego",
+        "position": "Internship",
+        "start": "2011-08",
+        "end": "2011-09",
+        "location": "Hasselt, Belgium",
+        "summary": "Created a centralized monitoring and management system for servers.",
+        "highlights": [
+          "Created management front-end with GTW.",
+          "Automated script installation using Python microservices.",
+          "Used ManageEngine to created a dashboard based on JMX."
+        ],
+        "keywords": [
+          "Java",
+          "Python",
+          "Bash",
+          "GWT",
+          "Tornado",
+          "JMX"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "level": "degree",
+    "degree": "Bachelor",
+    "history": [{
+      "institution": "PXL",
+      "title": "Bachelor in Applied Informatics",
+      "url": "https://pxl.be",
+      "start": "2009-09",
+      "end": "2012-08"
+    }]
+  },
+  "languages": [{
+      "language": "English",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "Dutch",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "French",
+      "fluency": "Fluent"
+    },
+    {
+      "language": "German",
+      "fluency": "Conversational"
+    },
+    {
+      "language": "Japanese",
+      "fluency": "Conversational"
+    },
+    {
+      "language": "Spanish",
+      "fluency": "Basic"
+    }
+  ]
+}

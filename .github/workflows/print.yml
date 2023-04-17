@@ -25,11 +25,12 @@ jobs:
         cache: 'npm'
     - run: npm install
     - run: npx hackmyresume build resume.json out/resume.all --theme positive
+    - run: npx hackmyresume build resume-ja.json out-ja/resume.all --theme positive
     - run: node pdf-print.js
     - name: Create release
       uses: ncipollo/release-action@v1
       with:
-        artifacts: "out/resume.pdf"
+        artifacts: ["out/resume.pdf", "out-ja/resume.pdf"]
 
 
 
