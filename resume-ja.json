@@ -1,0 +1,330 @@
+{
+  "name": "Wesley Vrancken",
+  "meta": {
+    "format": "FRESH@0.6.0",
+    "version": "0.1.0"
+  },
+  "info": {
+    "label": "ソフトウェアエンジニア",
+    "brief": "様々な産業で10年以上の経験を持つ、あらゆる分野のプログラマー。ベルギー出身。ブロックチェーンファン、SF愛好家。",
+    "image": ""
+  },  
+  "contact": {
+    "email": "wlee@isabot.net",
+    "other": []
+  },
+  "location": {
+    "address": "",
+    "city": "Osaka",
+    "region": "",
+    "code": "",
+    "country": "JP"
+  },
+  "social": [
+    {
+      "label": "GitHub",
+      "network": "GitHub",
+      "user": "wleev",
+      "url": "https://github.com/wleev"
+    }
+  ],
+  "skills": {
+
+    "sets": [
+      {
+        "name": "言語",
+        "level": "advanced",
+        "skills": [
+          "JavaScript", "Python", "C#", "C++", "Java", "Clojure", "Golang"
+        ]
+      },
+      {
+        "name": "ウェブ",
+        "level": "master",
+        "skills": [
+          "Typescript", "React.js", "Vue.js", "Angular.js", "Node.js", "Flask", "WebAPI", "ASP.NET"
+        ]
+      },
+      {
+        "name": "データベース",
+        "level": "intermediate",
+        "skills": [
+          "MySQL/MariaDB", "PostgreSQL", "Mongo", "Redis"
+        ]
+      },
+      {
+        "name": "インフラストラクチャ",
+        "level": "intermediate",
+        "skills": [
+          "Shell", "Docker", "LXC", "Nginx", "Apache"
+        ]
+      }
+    ]
+  },
+  "employment": {
+    "history": [{
+      "employer": "CryptoGarage",
+      "position": "フリーランス",
+      "location": "リモート",
+      "start": "2019-12",
+      "end": "2020-06",
+      "summary": "ピアツーピアの仮想通貨デリバティブ取引アプリの開発",
+      "highlights": [
+        "ElectronJS MVPの開発",
+        "Golangバックエンドサーバーのテストとメンテナンス",
+        "Dockerイメージの微調整"
+      ],
+      "keywords": [
+        "Typescript",
+        "ElectronJS",
+        "React",
+        "Docker",
+        "Golang"
+      ]
+    },
+    {
+      "employer": "Raspberry Shake",
+      "position": "ソフトウェアエンジニア",
+      "location": "リモート",
+      "start": "2018-04",
+      "summary": "地震計および地球物理データ用ソフトウェアの開発",
+      "highlights": [
+        "地震学データを使用した製品ポータルウェブサイトおよび他のウェブアプリケーションの設計、開発、およびメンテナンス",
+        "地震計（RPiデバイス）の設定ソフトウェアのプロトタイピングおよび開発",
+        "Qtを使用したマルチプラットフォームモバイルアプリの開発",
+        "プロダクションサーバーおよびそのサービスのメンテナンス"
+      ],
+      "keywords": [
+        "C#",
+        "ASP.NET Core",
+        "Python",
+        "Flask",
+        "Javascript",
+        "Typescript",
+        "Vuejs",
+        "Qt",
+        "C++"
+      ]
+    },    
+    {
+      "employer": "Synon",
+      "position": "ソフトウェアエンジニア",
+      "start": "2015-06",
+      "end": "2018-03",
+      "location": "大阪、日本",
+      "summary": "Windows 10およびAndroidを含む複数プラットフォーム向けのアプリケーション開発",
+      "highlights": [
+        "Androidアプリを最新のSDKに移行し、カスタムカレンダーウィジェットを実装",
+        "IoTデバイスの互換性を重視したWindows Storeアプリおよび関連サービスの設計",
+        ".NET Coreを使用したマルチプラットフォームソリューションへのすべてのサービスの移行"
+      ],
+      "keywords": [
+        "C#",
+        "ASP.NET Core",
+        "UWP",
+        "Java"
+      ]
+    },
+    {
+      "employer": "OSOP",
+      "position": "リード開発者",
+      "start": "2014-09",
+      "end": "2015-08",
+      "location": "ボルカン、パナマ/リモート",
+      "summary": "埋め込みソフトウェアからウェブアプリケーションまでの地震学関連ソフトウェアの開発",
+      "highlights": [
+        "WiFi対応の地震計のプロトタイプのリード開発",
+        "Bluetoothを使用した地震計の設定用Goアプリケーションのメンテナンスおよび更新",
+        "OTAファームウェアの更新を可能にするサーバーの開発"
+      ],
+      "keywords": [
+        "C/C++",
+        "Go",
+        "Python",
+        "Javascript",
+        "Backbone.js",
+        "Django",
+        "STM32",
+        "Flask"
+      ]
+    },    
+    {
+      "employer": "Boaz Consultancy",
+      "position": "Webデベロッパー",
+      "start": "2014-09",
+      "end": "2015-08",
+      "location": "ボルカン、パナマ/リモート",
+      "summary": "銀行データの集計を表示するバックオフィスのWebアプリケーションの開発",
+      "highlights": [],
+      "keywords": [
+        "C#",
+        "ASP.NET MVC",
+        "Angular.js",
+        "Javascript",
+        "Kendo UI"
+      ]
+    },
+    {
+      "employer": "Key Technology",
+      "position": "ソフトウェアエンジニア",
+      "start": "2013-11",
+      "end": "2014-08",
+      "location": "ハッセルト、ベルギー",
+      "summary": "光学選別機および補完機器に関する複数のドメインでのソフトウェア実装の開発",
+      "highlights": [
+        "エンジニアおよびサポートスタッフ向けのユーティリティプログラムの作成",
+        "内部のJenkinsビルドツールの改善",
+        "C++およびPythonプロジェクト向けのJenkins CIサーバーの管理"
+      ],
+      "keywords": [
+        "C++",
+        "Qt",
+        "Boost",
+        "Ruby",
+        "Numpy",
+        "SciPy",
+        "XSLT",
+        "XSD"
+      ]
+    },    
+    {
+      "employer": "Ubicast",
+      "position": "Webデベロッパー",
+      "start": "2013-02",
+      "end": "2013-08",
+      "location": "東京、日本",
+      "summary": "OpenCMSを使用したWebアプリケーションおよびモジュールの開発",
+      "highlights": [
+        "クライアント向けにカスタムOpenCMSの機能を作成",
+        "法人ウェブサイトのリデザイン"
+      ],
+      "keywords": [
+        "Java",
+        "Scala",
+        "OpenCMS",
+        "Backbone.js"
+      ]
+    },
+    {
+      "employer": "Cegeka",
+      "position": "ITコンサルタント",
+      "start": "2012-10",
+      "end": "2013-01",
+      "location": "ハッセルト、ベルギー",
+      "summary": "Hereaus Electro-Niteの計器部門でのアナリスト兼開発者としてのデプロイ",
+      "highlights": [
+        "計測器向けのC#アプリケーションの開発",
+        "アルミニウム製錬所でのソフトウェアの現場試験",
+        "現場データの数学的分析",
+        "化学者、エンジニア、ソフトウェアスタッフ間のコミュニケーションを担当"
+      ],
+      "keywords": [
+        "C#",
+        "WPF",
+        "Python",
+        "Numpy",
+        "SciPy",
+        "TFS"
+      ]
+    },    
+    {
+      "employer": "Fenego",
+      "position": "インターンシップ",
+      "start": "2012-08",
+      "end": "2012-09",
+      "location": "ハッセルト、ベルギー",
+      "summary": "既存のXSDに基づいてXMLファイルを生成するツールの作成。ウェブサービスのテストに使用。",
+      "highlights": [],
+      "keywords": [
+        "Java",
+        "JavaFX",
+        "XML",
+        "XSD"
+      ]
+    },
+    {
+      "employer": "Cinemaray",
+      "position": "インターンシップ",
+      "start": "2012-03",
+      "end": "2012-08",
+      "location": "名古屋、日本",
+      "summary": "学校の単位取得のためのインターンシップ。",
+      "highlights": [
+        "ARコンポーネントを持つiOSアプリケーションの作成および修正。",
+        "Microsoft PixelSense向けのプロトタイプXNAアプリケーションの構築。",
+        "カスタムクライアントマップのためのマッピングサービスの実装。"
+      ],
+      "keywords": [
+        "Unity3D",
+        "Vuforia",
+        "C#",
+        "XNA",
+        "GDAL",
+        "OpenLayers",
+        "Geoserver"
+      ]
+    },
+    {
+      "employer": "Fenego",
+      "position": "インターンシップ",
+      "start": "2011-08",
+      "end": "2011-09",
+      "location": "ハッセルト、ベルギー",
+      "summary": "サーバーの集中監視および管理システムの作成。",
+      "highlights": [
+        "GTWを使用して管理フロントエンドを作成。",
+        "Pythonマイクロサービスを使用してスクリプトの自動インストールを実装。",
+        "JMXに基づいたダッシュボードをManageEngineを使用して作成。"
+      ],
+      "keywords": [
+        "Java",
+        "Python",
+        "Bash",
+        "GWT",
+        "Tornado",
+        "JMX"
+      ]
+    }
+    
+    ]
+  },
+  "education": {
+    "level": "degree",
+    "degree": "学士",
+    "history": [
+      {
+        "institution": "PXL",
+        "title": "情報学の学士",
+        "url": "https://pxl.be",
+        "start": "2009-09",
+        "end": "2012-08"
+      }
+    ]
+  },  
+  "languages": [
+    {
+      "language": "英語",
+      "fluency": "流暢"
+    },
+    {
+      "language": "オランダ語",
+      "fluency": "母国語"
+    },
+    {
+      "language": "フランス語",
+      "fluency": "流暢"
+    },
+    {
+      "language": "ドイツ語",
+      "fluency": "会話レベル"
+    },
+    {
+      "language": "日本語",
+      "fluency": "会話レベル"
+    },
+    {
+      "language": "スペイン語",
+      "fluency": "基本レベル"
+    }
+  ]  
+}
