@@ -8,7 +8,9 @@ const cssPath = path.resolve(__dirname, './out/positive-pdf.css');
 (async () => {
     const htmlContent = fs.readFileSync(filePath);
     const htmlContentJP = fs.readFileSync(filePathJP, { encoding: "utf8" });
-    const browser = await puppeteer.launch();
+    const browser = await puppeteer.launch({
+        args: ['--no-sandbox', '--disable-setuid-sandbox'] // Disable sandboxing
+    });
     const page = await browser.newPage();
     await page.setContent(htmlContent.toString(), { waitUntil: ["domcontentloaded", "networkidle0"]})
     await page.pdf({
