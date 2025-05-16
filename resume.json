@@ -29,37 +29,6 @@
     }
   ],
   "skills": {
-
-    "sets": [
-      {
-        "name": "Languages",
-        "level": "advanced",
-        "skills": [
-          "JavaScript", "Python", "C#", "C(++)", "Java", "Golang"
-        ]
-      },
-      {
-        "name": "Web",
-        "level": "master",
-        "skills": [
-          "Typescript", "React.js", "Vue.js", "Angular.js", "Node.js", "Flask", "WebAPI", "ASP.NET"
-        ]
-      },
-      {
-        "name": "Database",
-        "level": "intermediate",
-        "skills": [
-          "MySQL/MariaDB", "PostgreSQL", "Mongo", "Redis"
-        ]
-      },
-      {
-        "name": "Infrastructure",
-        "level": "intermediate",
-        "skills": [
-          "shell", "Docker", "lxc", "nginx", "Apache"
-        ]
-      }
-    ]
   },
   "employment": {
     "history": [{
