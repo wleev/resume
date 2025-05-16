@@ -35,7 +35,7 @@
         "name": "Languages",
         "level": "advanced",
         "skills": [
-          "JavaScript", "Python", "C#", "C++", "Java", "Clojure", "Golang"
+          "JavaScript", "Python", "C#", "C(++)", "Java", "Golang"
         ]
       },
       {
@@ -63,6 +63,30 @@
   },
   "employment": {
     "history": [{
+        "employer": "Bonx",
+        "position": "Senior Software engineer",
+        "location": "Remote/Tokyo",
+        "start": "2023-12",
+        "summary": "Development of VoIP software and related services",
+        "highlights": [
+          "Maintained and developed real-time VoIP data pipelines across distributed servers",
+          "Implemented centralized database schema management system to enforce type safety and data integrity",
+          "Management of AWS infrastructure with Terraform",
+          "Prototyped embedded systems for on-premise edge VoIP server deployments",
+          "Built MVP of a Temporal-based pipeline for voice data segmentation, processing, and ML inference"
+        ],
+        "keywords": [
+          "Golang",
+          "Python",
+          "C#",
+          "Temporal",
+          "NATS",
+          "AWS",
+          "Terraform",
+          "PostgreSQL"
+        ]
+      },
+      {
       "employer": "CryptoGarage",
       "position": "Freelance",
       "location": "Remote",
@@ -87,6 +111,7 @@
         "position": "Software engineer",
         "location": "Remote",
         "start": "2018-04",
+        "end": "2023-11",
         "summary": "Development of software for seismometers and geophysical data",
         "highlights": [
           "Designing, developing and maintenance of the product portal website and other web applications using seismological data",
