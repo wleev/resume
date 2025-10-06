@@ -6,13 +6,14 @@ const filePath = path.resolve(__dirname, './out/resume.pdf.html');
 const filePathJP = path.resolve(__dirname, './out-ja/resume.pdf.html');
 const cssPath = path.resolve(__dirname, './out/positive-pdf.css');
 (async () => {
-    const htmlContent = fs.readFileSync(filePath);
+    const htmlContent = fs.readFileSync(filePath, { encoding: "utf8" });
     const htmlContentJP = fs.readFileSync(filePathJP, { encoding: "utf8" });
     const browser = await puppeteer.launch({
         args: ['--no-sandbox', '--disable-setuid-sandbox'] // Disable sandboxing
     });
     const page = await browser.newPage();
-    await page.setContent(htmlContent.toString(), { waitUntil: ["domcontentloaded", "networkidle0"]})
+    
+    await page.setContent(htmlContent, { waitUntil: ["domcontentloaded", "networkidle0"]})
     await page.pdf({
         path: "out/resume.pdf",
         format: "A4",
@@ -25,7 +26,8 @@ const cssPath = path.resolve(__dirname, './out/positive-pdf.css');
             bottom: "10mm"
         }
     });
-    await page.setContent(htmlContentJP.toString(), { waitUntil: ["domcontentloaded", "networkidle0"]})
+    
+    await page.setContent(htmlContentJP, { waitUntil: ["domcontentloaded", "networkidle0"]})
     await page.pdf({
         path: "out-ja/resume-ja.pdf",
         format: "A4",
