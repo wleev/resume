@@ -17,12 +17,18 @@ jobs:
         node-version: [16.x]
 
     steps:
+      
     - uses: actions/checkout@v3
     - name: Use Node.js ${{ matrix.node-version }}
       uses: actions/setup-node@v3
       with:
         node-version: ${{ matrix.node-version }}
         cache: 'npm'
+    - name: Install Asian fonts
+      run: |
+        sudo apt-get update
+        sudo apt-get -yq install xfonts-utils fonts-droid xfonts-intl-asian
+        sudo fc-cache -fv
     - run: npm install
     - run: npx hackmyresume build resume.json out/resume.all --theme positive
     - run: npx hackmyresume build resume-ja.json out-ja/resume.all --theme positive
