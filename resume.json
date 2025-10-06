@@ -33,7 +33,7 @@
   "employment": {
     "history": [{
         "employer": "Bonx",
-        "position": "Senior Software engineer",
+        "position": "Back-end Team Lead",
         "location": "Remote/Tokyo",
         "start": "2023-12",
         "summary": "Development of VoIP software and related services",
@@ -42,7 +42,8 @@
           "Implemented centralized database schema management system to enforce type safety and data integrity",
           "Management of AWS infrastructure with Terraform",
           "Prototyped embedded systems for on-premise edge VoIP server deployments",
-          "Built MVP of a Temporal-based pipeline for voice data segmentation, processing, and ML inference"
+          "Built MVP of a Temporal-based pipeline for voice data segmentation, processing, and ML inference",
+          "Architected and implemented multiple new features, examples being emergency calls based on location and QR-based passwordless login"
         ],
         "keywords": [
           "Golang",
